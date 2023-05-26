@@ -1,0 +1,278 @@
+@media (min-width: 321px) and (max-width: 768px) {  }
+@media (min-width: 769px) and (max-width: 1024px) { }
+@media (min-width: 1025px) and (max-width: 1200px) { }
+
+/* add media query  */
+
+@media (min-width: 310px) and (max-width: 764px) {
+
+    .container {
+        padding: 0 15px;
+         margin: 0px 0px; 
+    }
+
+
+    .modal-content{max-height: 30vh;}
+    .newsletter-img {
+
+        max-width: 0vw;
+        object-fit: contain;
+        visibility: collapse;
+    }
+
+
+
+    .top-container{
+        gap: 0;
+        justify-content: space-around;
+    }
+
+
+    .header-alert-news p {
+        font-size: var(--fs-11);
+    
+    }
+
+
+    .header-social-container{display: none;}
+    .header-top-action{display: none;}
+
+    .header-main {
+        padding: 2px 0;
+        /* border-bottom: 1px solid var(--cultured); */
+    }
+
+    .header-logo img{width: 90px;}
+    .header-search-container{display: none;}
+    
+    .main-nav {
+        display: none;
+        
+    }
+
+    .slide-items{max-height: 188px;}
+
+    .banner-content {
+        background: hsl(0deg 0% 100% / 27%);
+        position: absolute;
+        bottom: 9px;
+        left: 7px;
+        right: 174px;
+        padding: 7px 25px;
+        border-radius: var(--border-radius-md);
+    }
+
+    .banner-title {
+        color: var(--eerie-black);
+        font-size: var(--fs-5);
+        line-height: 1;
+        margin-bottom: 1px;
+    }
+
+    .banner-subtitle {
+       
+        font-style: var(--fs-11);
+        font-weight: var(--weight-500);
+        margin-bottom: 0px;
+    }
+
+    .category-item {
+        min-width: 100%;
+       margin-bottom: 5px;
+        gap: 9px;
+        padding: 3px 10px;
+    
+    }
+
+    .brand-container h2 {       
+        font-size: 14px;
+        font-weight: 800;
+        padding-bottom: 2px;
+    }
+
+    .brand-logo {
+        min-width: 100%;
+        display: flex;
+        align-items: center;
+        gap: 22px;
+        padding: 1px;
+        border: 1px solid var(--cultured);
+        border-radius: var(--border-radius-md);
+        scroll-snap-align: start;
+    }
+
+    .new-arrivals-items {
+        display: grid;
+        grid-template-columns:   1fr;
+        gap: 10px 10px;
+    }
+
+    .clothes-container {
+        /* width: 64vw; */
+        margin-left: 7px;
+    }
+     
+    .new-arrivals-items .new-items {
+        height: 90px;
+        display: flex;
+        border: 1px solid var(--cultured);
+        width: 100%;
+        padding: 10px 5px;
+        align-items: center;
+        justify-content: space-evenly;
+        border-radius: var(--border-radius-md);
+    }
+    .sidebar{display: none;}
+
+    .deal-of-the-day-item{flex-direction: column;}
+
+    .product-grid{grid-template-columns: 1fr 1fr;}
+    .deal-of-the-day-container{max-width: 100vw;}
+    .deal-of-the-day-item .item-img img {
+        width: 251px;
+    }
+
+    footer .footer-container{padding: 16px;}
+    .footer-content-2{grid-template-columns: repeat(2, 1fr);
+        justify-items: center;
+    }
+    .our-blog {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        
+    }
+
+    .Testimonial{width: 100%;}
+
+    .blog-img{    margin: 5px 0;
+        width: 100%;}
+
+        .our-blog .service {
+          
+            width: calc(100% - 0px);
+        }
+
+        .our-blog-2{display: grid;grid-template-columns: 1fr 1fr;}
+        .our-blog-2-box{width: 100%;}
+        .our-blog-2-box img{width: 100%;height: 50%;}
+        .our-blog-2-box a h3{font-size: var(--fs-9);}
+      
+  }
+  
+
+
+@media (min-width: 765px) and (max-width: 1024px) {
+
+    .container {
+        padding: 0 15px;
+         margin: 0px 10px; 
+    }
+
+    .modal-content{max-height: 54vh;max-width: 80vw;}
+    .newsletter-img {
+        max-height: 311px;
+    }
+    
+
+    .top-container{
+        gap: 0;
+        justify-content: space-around;
+    }
+
+    .header-main {
+        padding: 13px 18px;
+       
+    }
+
+    .header-main-container{justify-content: space-between;}
+  
+     
+    .header-search-container{width: 350px; }
+    .header-search-container .search-feild{border-radius: none;}
+
+    .main-nav ul{gap: 30px;}
+    .main-nav ul li a{font-size:var(--fs-9);}
+
+    .slide-items{max-height: 270px;}
+
+    .category-item {
+        min-width: 32.2%;
+        padding: 10px 10px;
+        border: 1px solid var(--cultured);
+        border-radius: var(--border-radius-md);
+        scroll-snap-align: start;
+    }
+
+    .new-arrivals-items {
+        display: grid;
+        grid-template-columns:  1fr 1fr;
+        gap: 10px 10px;
+    }
+    .new-arrivals-items p{margin: 0;}
+
+    .clothes-container {
+        width: 64vw;
+        margin-left: 7px;
+    }
+     
+    .new-arrivals-items .new-items {
+        height: 90px;
+        display: flex;
+        border: 1px solid var(--cultured);
+        width: 256px;
+        padding: 10px 5px;
+        align-items: center;
+        justify-content: space-evenly;
+        border-radius: var(--border-radius-md);
+    }
+
+    .price-box{margin-top: 0;}
+
+    h3{margin-bottom: 0;
+    font-weight: 300;}
+
+    .deal-of-the-day-item{flex-direction: column;}
+    .deal-of-the-day-item .item-img img {
+        width: 286px;
+    }
+
+    .product-grid {
+        grid-template-columns: 1fr 1fr; 
+    }
+    .product-grid .product-item .product-img img {
+        width: 253px;
+       
+    }
+    .our-blog {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        
+    }
+
+    .Testimonial{width: 100%;}
+
+    .blog-img{    margin: 5px 0;
+        width: 100%;}
+
+        .our-blog .service {
+          
+            width: calc(100% - 0px);
+        }
+
+        .mobile-bottom-navigation{max-width: 100vw;}
+
+        .our-blog-2{display: grid;grid-template-columns: 1fr 1fr;}
+        .our-blog-2-box{width: 100%;}
+        .our-blog-2-box img{width: 100%; height: 50%;}
+        .our-blog-2-box a h3{font-size: var(--fs-9);}
+        
+ }
+
+
+@media (min-width: 1025px) {
+
+    .mobile-bottom-navigation{display: none;}
+    
+ }
